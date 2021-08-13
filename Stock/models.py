@@ -3,11 +3,11 @@ from datetime import date
 
 
 # Create your models here.
-# class Date(models.Model):
-#     Date_Today = models.DateField(default=date.today)
-#     Sentiment_Today = models.IntegerField(blank=True, null=True)
-#     Mentions_Today = models.IntegerField(blank=True, null=True)
-#
+class Date(models.Model):
+    Date_Today = models.DateField(default=date.today)
+    Sentiment_Today = models.IntegerField(blank=True, null=True)
+    Mentions_Today = models.IntegerField(blank=True, null=True)
+
 #
 # class Stock(models.Model):
 #     Name = models.CharField(max_length=45)
