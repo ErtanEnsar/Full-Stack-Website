@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # My own apps
-    'Stock'
+    'Stock',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [
