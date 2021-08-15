@@ -14,4 +14,5 @@ class Stock(models.Model):
     Ticker = models.CharField(max_length=20)
     Exchange = models.CharField(max_length=150)
     Todays_Date_For_Stock = models.ForeignKey(Date, on_delete=models.PROTECT)
+    Value = models.IntegerField(blank=True, null=True)
 
