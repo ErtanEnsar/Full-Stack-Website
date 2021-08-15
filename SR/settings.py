@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # My own apps
-    'Stocks',
+    'Stock',
     'django_extensions'
 ]
 

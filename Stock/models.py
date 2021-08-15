@@ -7,18 +7,9 @@ class Stock(models.Model):
     Ticker = models.CharField(max_length=20)
     Exchange = models.CharField(max_length=150)
 
-class Date(models.Model):
+class StockData(models.Model):
     Stock = models.ForeignKey(Stock, on_delete=models.PROTECT)
     Date_Today = models.DateField(default=date.today)
     Sentiment_Today = models.IntegerField(blank=True, null=True)
     Mentions_Today = models.IntegerField(blank=True, null=True)
     Price = models.IntegerField(blank=True, null=True)
-
-
-
-
-
-
-
-
-
