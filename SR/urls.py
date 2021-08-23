@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
- from Stocks.views import home_view
+from Stocks.views import home_view
+from Stocks.views import Search_Stocks
 
 urlpatterns = [
     path('',home_view),
     path('admin/', admin.site.urls),
+    #path('Search_Stocks',Search_Stocks, name='Search_Stocks')
 ]
