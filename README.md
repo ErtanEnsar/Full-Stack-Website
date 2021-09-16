@@ -1,2 +1,4 @@
-#Django full stack Website
-#A full stack website built in Django using postgres
+# Django Full Stack website
+
+A full stack website built using Django and PostgreSQL.
+
